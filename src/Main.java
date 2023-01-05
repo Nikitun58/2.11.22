@@ -75,6 +75,23 @@ public class Main {
                 System.out.println("сегодня пятница "+fistFridayOfMount+" число пора готовить отчет ");
                 fistFridayOfMount=fistFridayOfMount+7;
                 }
+            //Задача №3.1
+            System.out.println("Задача №3.1");
+            int completion=2022;
+            for ( int beforeTheStart=0; beforeTheStart<=completion+100;beforeTheStart+=79){
+                if(beforeTheStart>=completion-200 && beforeTheStart<=completion+100)
+                    System.out.println(beforeTheStart);
+            }
+        //Задача №3.1
+        System.out.println("Задача №3.1");
+            int plus=2;
+            for (int pl=1;pl<=10;pl++){
+                System.out.println(plus+" * "+pl+" = "+plus*pl);
+                }
+
+
+
+
 
 
 
