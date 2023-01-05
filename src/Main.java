@@ -68,22 +68,17 @@ public class Main {
                 if(m3 % 6 ==0){
                 System.out.println("Месяц "+m3+ " сумма с % "+contributionVaciliya3);}}
         }
-            // Задача 2.4
-            System.out.println("Задача 2.4");
-            int friday=5;
-            int day=0;
-            while (day<31){
-                day++;
-                if (day%7==friday)
-                System.out.println(""+friday);
-            }
             //Задача % 2.4
             System.out.println("Задача 4");
             int fistFridayOfMount= 5;
             while (fistFridayOfMount<31){
-                fistFridayOfMount+=7;
                 System.out.println("сегодня пятница "+fistFridayOfMount+" число пора готовить отчет ");
+                fistFridayOfMount=fistFridayOfMount+7;
                 }
+
+
+
+
 
 
 
